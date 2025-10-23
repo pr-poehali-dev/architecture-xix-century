@@ -69,6 +69,62 @@ const monuments: Monument[] = [
     description: 'Грандиозный проект Антонио Гауди, объединивший готику с органическими формами модерна.',
     style: 'Модерн',
     image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/6e845304-98c3-4b76-8aae-31a5994f048c.jpg'
+  },
+  {
+    name: 'Вестминстерский дворец (Биг-Бен)',
+    year: '1840-1870',
+    location: 'Лондон, Великобритания',
+    description: 'Грандиозное здание британского парламента в неоготическом стиле с культовой часовой башней.',
+    style: 'Неоготика',
+    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/c1057212-ad2d-4d30-82a0-78e874614dac.jpg'
+  },
+  {
+    name: 'Опера Гарнье',
+    year: '1861-1875',
+    location: 'Париж, Франция',
+    description: 'Роскошный оперный театр в стиле боз-ар, образец архитектуры Второй империи.',
+    style: 'Боз-ар',
+    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/500044d6-214e-4d7e-b67d-d9ba282532bc.jpg'
+  },
+  {
+    name: 'Бруклинский мост',
+    year: '1869-1883',
+    location: 'Нью-Йорк, США',
+    description: 'Первый висячий мост с стальными тросами, инженерный шедевр соединяющий Манхэттен и Бруклин.',
+    style: 'Индустриальная архитектура',
+    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/80803921-c4e7-43cc-b5aa-947499211660.jpg'
+  },
+  {
+    name: 'Статуя Свободы',
+    year: '1876-1886',
+    location: 'Нью-Йорк, США',
+    description: 'Монументальная неоклассическая скульптура, подарок Франции Америке, символ свободы.',
+    style: 'Неоклассицизм',
+    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/11298f28-05a3-4903-b9bf-d2aeebc80881.jpg'
+  },
+  {
+    name: 'Замок Нойшванштайн',
+    year: '1869-1886',
+    location: 'Бавария, Германия',
+    description: 'Романтический замок короля Людвига II, вдохновивший создателей диснеевских дворцов.',
+    style: 'Романский ревивализм',
+    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/41abc039-16f6-4620-a36b-36e5149ca12c.jpg'
+  },
+  {
+    name: 'Большой театр',
+    year: '1821-1824',
+    location: 'Москва, Россия',
+    description: 'Выдающийся образец русского ампира, главная театральная сцена России с величественным портиком.',
+    style: 'Ампир',
+    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/22bbf5c8-5172-44b4-97ad-6dc80a36efc5.jpg'
+  },
+  {
+    name: 'Гранд-Централ',
+    year: '1903-1913',
+    location: 'Нью-Йорк, США',
+    description: 'Монументальный вокзал в стиле боз-ар с величественным главным залом и звёздным потолком.',
+    style: 'Боз-ар',
+    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/23b8d9d3-bb7a-4ea1-b242-93b04518a445.jpg'
   }
 ];
 
