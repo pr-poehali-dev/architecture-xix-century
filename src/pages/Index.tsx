@@ -20,7 +20,7 @@ const monuments: Monument[] = [
     location: 'Париж, Франция',
     description: 'Величественная арка в стиле ампир, построенная по приказу Наполеона в честь побед Великой армии.',
     style: 'Ампир',
-    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/ffed3460-d032-4c66-b4a6-2e22ade5e9ca.jpg'
+    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/251b4914-ad00-4c38-9c5f-e1eab6c8c10d.jpg'
   },
   {
     name: 'Вандомская колонна',
@@ -28,7 +28,7 @@ const monuments: Monument[] = [
     location: 'Париж, Франция',
     description: 'Колонна высотой 44 метра, воздвигнутая в честь победы при Аустерлице.',
     style: 'Ампир',
-    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/60c2e1f4-75bb-4945-ae99-6d62ef0fff1f.jpg'
+    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/518ef1ec-4a5b-467e-90e9-05d8ef609fde.jpg'
   },
   {
     name: 'Церковь Мадлен',
@@ -36,7 +36,7 @@ const monuments: Monument[] = [
     location: 'Париж, Франция',
     description: 'Католическая церковь в неоклассическом стиле, напоминающая античный храм.',
     style: 'Ампир',
-    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/dc806824-fb77-4859-9e20-ae7793750215.jpg'
+    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/df32f4a3-0ae0-437f-a814-3b37c47dfecc.jpg'
   },
   {
     name: 'Хрустальный дворец',
@@ -44,7 +44,7 @@ const monuments: Monument[] = [
     location: 'Лондон, Великобритания',
     description: 'Революционное здание из стекла и чугуна для Всемирной выставки, символ промышленной эры.',
     style: 'Индустриальная архитектура',
-    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/761e8704-960f-41ce-a6f2-8a2f29676d08.jpg'
+    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/5bdb749f-74e5-474f-81b0-cda1a31d7efd.jpg'
   },
   {
     name: 'Первые небоскрёбы',
@@ -52,7 +52,7 @@ const monuments: Monument[] = [
     location: 'Чикаго, США',
     description: 'Home Insurance Building - первый небоскрёб с металлическим каркасом, открывший новую эру в строительстве.',
     style: 'Чикагская школа',
-    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/375e9021-1400-48d0-b79c-55a6b52f9491.jpg'
+    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/08afae84-b0b9-4b07-9c46-5df3324a1eaa.jpg'
   },
   {
     name: 'Эйфелева башня',
@@ -60,7 +60,7 @@ const monuments: Monument[] = [
     location: 'Париж, Франция',
     description: 'Железная башня высотой 300 метров, ставшая символом технического прогресса XIX века.',
     style: 'Индустриальная архитектура',
-    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/74bb66bf-10d2-4ba8-9b57-e6c79761fdec.jpg'
+    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/eda0e25f-327d-4702-b38a-a5800433f80b.jpg'
   },
   {
     name: 'Храм Святого Семейства',
@@ -68,7 +68,7 @@ const monuments: Monument[] = [
     location: 'Барселона, Испания',
     description: 'Грандиозный проект Антонио Гауди, объединивший готику с органическими формами модерна.',
     style: 'Модерн',
-    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/b3ce712b-43f0-41ac-93da-abf3f43cb904.jpg'
+    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/6e845304-98c3-4b76-8aae-31a5994f048c.jpg'
   }
 ];
 
