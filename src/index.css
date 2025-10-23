@@ -111,3 +111,7 @@
     font-family: "Playfair Display", serif;
   }
 }
+
+[data-pptagger] {
+  display: none !important;
+}
