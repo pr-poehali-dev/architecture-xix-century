@@ -10,6 +10,7 @@ interface Monument {
   location: string;
   description: string;
   style: string;
+  image: string;
 }
 
 const monuments: Monument[] = [
@@ -18,49 +19,56 @@ const monuments: Monument[] = [
     year: '1806-1836',
     location: 'Париж, Франция',
     description: 'Величественная арка в стиле ампир, построенная по приказу Наполеона в честь побед Великой армии.',
-    style: 'Ампир'
+    style: 'Ампир',
+    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/ffed3460-d032-4c66-b4a6-2e22ade5e9ca.jpg'
   },
   {
     name: 'Вандомская колонна',
     year: '1806-1810',
     location: 'Париж, Франция',
     description: 'Колонна высотой 44 метра, воздвигнутая в честь победы при Аустерлице.',
-    style: 'Ампир'
+    style: 'Ампир',
+    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/60c2e1f4-75bb-4945-ae99-6d62ef0fff1f.jpg'
   },
   {
     name: 'Церковь Мадлен',
     year: '1764-1842',
     location: 'Париж, Франция',
     description: 'Католическая церковь в неоклассическом стиле, напоминающая античный храм.',
-    style: 'Ампир'
+    style: 'Ампир',
+    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/dc806824-fb77-4859-9e20-ae7793750215.jpg'
   },
   {
     name: 'Хрустальный дворец',
     year: '1851',
     location: 'Лондон, Великобритания',
     description: 'Революционное здание из стекла и чугуна для Всемирной выставки, символ промышленной эры.',
-    style: 'Индустриальная архитектура'
+    style: 'Индустриальная архитектура',
+    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/761e8704-960f-41ce-a6f2-8a2f29676d08.jpg'
   },
   {
     name: 'Первые небоскрёбы',
     year: '1885',
     location: 'Чикаго, США',
     description: 'Home Insurance Building - первый небоскрёб с металлическим каркасом, открывший новую эру в строительстве.',
-    style: 'Чикагская школа'
+    style: 'Чикагская школа',
+    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/375e9021-1400-48d0-b79c-55a6b52f9491.jpg'
   },
   {
     name: 'Эйфелева башня',
     year: '1887-1889',
     location: 'Париж, Франция',
     description: 'Железная башня высотой 300 метров, ставшая символом технического прогресса XIX века.',
-    style: 'Индустриальная архитектура'
+    style: 'Индустриальная архитектура',
+    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/74bb66bf-10d2-4ba8-9b57-e6c79761fdec.jpg'
   },
   {
     name: 'Храм Святого Семейства',
     year: '1882-настоящее время',
     location: 'Барселона, Испания',
     description: 'Грандиозный проект Антонио Гауди, объединивший готику с органическими формами модерна.',
-    style: 'Модерн'
+    style: 'Модерн',
+    image: 'https://cdn.poehali.dev/projects/7d0a93c9-1b0e-4251-9e26-fa8b0926f2a1/files/b3ce712b-43f0-41ac-93da-abf3f43cb904.jpg'
   }
 ];
 
@@ -248,7 +256,14 @@ const Index = () => {
             
             <div className="grid md:grid-cols-2 gap-6">
               {monuments.map((monument, index) => (
-                <Card key={index} className="border-2 hover:border-accent transition-all hover:shadow-lg">
+                <Card key={index} className="border-2 hover:border-accent transition-all hover:shadow-lg overflow-hidden">
+                  <div className="aspect-video w-full overflow-hidden bg-muted">
+                    <img 
+                      src={monument.image} 
+                      alt={monument.name}
+                      className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
                   <CardHeader>
                     <div className="flex items-start justify-between mb-2">
                       <Badge variant="outline" className="mb-2">{monument.style}</Badge>
